@@ -53,3 +53,5 @@ $route['default_controller'] = 'pagina';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['registrar'] = 'pagina/registrar';
+$route['cadastrarF'] = 'pagina/cadastrarF';
+$route['principal'] = 'pagina/principal';

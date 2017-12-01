@@ -1,5 +1,5 @@
 <?php $this->load->view('header'); ?>
-    <div class="login-card"><img src="assets/img/logo.png" class="profile-img-card" />
+    <div class="login-card"><img src="assets/img/lg.png" class="profile-img-card" />
     <p class="profile-name-card"> </p>
     <form class="form-signin"><span class="reauth-email"> </span>
         <input type="email" required placeholder="Email address" autofocus class="form-control" id="inputEmail" />
@@ -12,7 +12,7 @@
         </div>
         <button class="btn btn-primary btn-block btn-lg btn-signin" type="submit">Entrar</button>
     </form>
-    <a href="<?php echo base_url('index.php/registrar');?>" class="btn btn-primary btn-block btn-lg btn-signin btn-register" style="background-color:#00b760;" >Registr-se</a>
+    <a href="<?php echo base_url('registrar');?>" class="btn btn-primary btn-block btn-lg btn-signin btn-register" style="background-color:#00b760;" >Registre-se</a>
     </br><a href="#" class="forgot-password">Esqueceu sua Senha?</a></div>
     <div>
         <div class="modal fade" role="dialog" tabindex="-1" id="myModal">

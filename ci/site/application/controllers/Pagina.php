@@ -10,13 +10,29 @@ class Pagina extends CI_Controller {
 
 	public function index()
 	{
-		$dados['titulo']='Login-MavierSystem';
+		$dados['titulo']='Sistema Gerenciador de Funcionarios';
 		$this->load->view('login', $dados);
 	}
 
 	public function registrar()
 	{
-		$dados['titulo']='Registrar-MavierSystem';
+		$dados['titulo']='SGF - Registrar ';
 		$this->load->view('registrar', $dados);
+	}
+
+	public function cadastrarF()
+	{
+		$dados['titulo']= 'SGF - Novo Funcionário';
+		$dados['nome_pag']= 'Cadastrar';
+		$dados['sub_nome_pag']= 'Funcionário';
+		$this->load->view('cadastrarF', $dados,$dados,$dados);
+	}
+
+	public function principal()
+	{
+		$dados['titulo']= 'SGF - Principal';
+		$dados['nome_pag']= 'Gerênciador';
+		$dados['sub_nome_pag']= 'Funcionário';
+		$this->load->view('principal', $dados,$dados,$dados);
 	}
 }

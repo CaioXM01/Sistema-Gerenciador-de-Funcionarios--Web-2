@@ -11,6 +11,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700">
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/styles.min.css')?>"/>
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/styles.css')?>"/>
 </head>
 <body>
